@@ -10,6 +10,8 @@ jobs:
         run: echo "Hello world"
 
       - name: print good bye
-        run: echo "Good bye!"
+        run: |
+           echo "Good bye!"
+           echo "Good Night"
 
        
